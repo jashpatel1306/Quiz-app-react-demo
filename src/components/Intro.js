@@ -2,12 +2,13 @@ import React from "react";
 import { CheckCircle } from "../Icon/CheckCircle";
 import { importantToKnow } from "../content/content";
 import { Button } from "./Button";
+import {Doodles} from "../Icon/Doodles";
 
 const Intro = ({ onGetStartedClick }) => {
   return (
     <div className="px-5 py-8 flex-1 w-full lg:max-w-4xl mx-auto flex flex-col overflow-hidden">
       <img
-        src="/doodles.svg"
+        src={Doodles}
         className="absolute -bottom-10 right-0 z-0 object-cover pointer-events-none w-[343px] h-[413px] lg:w-[500px] lg:h-[600px]"
         alt="Doodles Illustration"
       />
